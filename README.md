@@ -10,5 +10,5 @@ The purpose of this repository is to document the discoveries and notes related 
 
 Name | Description
 ---- | -----------
-Kevin Elliott | Primary Airframes contributor
+[Kevin Elliott](https://github.com/kevinelliott) | Primary Airframes contributor
 Unnamed | Several contributors who wished to be unnamed or I have not yet been granted permission to list here
