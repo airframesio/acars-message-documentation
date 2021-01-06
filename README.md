@@ -8,6 +8,7 @@ The purpose of this repository is to document the discoveries and notes related 
 
 ## Contributors
 
--- | --
+Name | Description
+---- | -----------
 Kevin Elliott | Primary Airframes contributor
 Unnamed | Several contributors who wished to be unnamed or I have not yet been granted permission to list here
