@@ -122,6 +122,8 @@ LOCATION N3654.6
 
 ## Acronyms / Codes
 
+...
+
 ## Analysis
 
 Some initial thoughts are that Variations 1 and 2 are detectable via preambles and can then potentially be decoded. However, note that it appears that some messages seem to continue into the next message (and there was no indication that an ACARS Message Number (msgno) was present). This means that significant effort to combine based on tail+flight needs to occur in realtime, which is unlikely to happen.

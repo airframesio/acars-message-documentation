@@ -2,8 +2,16 @@
 
 ## Description
 
+...
+
 ## Examples
+
+...
 
 ## Acronyms / Codes
 
+...
+
 ## Analysis
+
+...
