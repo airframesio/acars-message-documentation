@@ -13,7 +13,7 @@ A collaborative effort of analyzing and researching ACARS message algorithms and
 Label | Preamble
 ----- | --------
 20 | [#CFB](research/20/CFB.md)
-20 | [#CFB.01](research/20/CFB/CFB.01)
+20 | [#CFB.01](research/20/CFB/CFB.01.md)
 
 ## Documentation
 

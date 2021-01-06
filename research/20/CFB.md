@@ -73,7 +73,7 @@ For preamble specific analysis, see the following documents.
 
 Full Preamble | Description
 ------------- | -----------
-[#CFB.01](CFB/CFB.01) | Failure/fault/warning
+[#CFB.01](CFB/CFB.01.md) | Failure/fault/warning
 #CFBFLR | Realtime Failure
 #CFBMPF |
 #CFBWRN | Warning
