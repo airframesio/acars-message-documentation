@@ -13,6 +13,7 @@ A collaborative effort of analyzing and researching ACARS message algorithms and
 Label | Preamble
 ----- | --------
 [10](research/10.md)
+[12](research/12.md)
 [20](research/20.md) | [POS](research/20/POS.md)
 [32](research/32.md)
 [37](research/37.md)
