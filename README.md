@@ -12,7 +12,11 @@ A collaborative effort of analyzing and researching ACARS message algorithms and
 
 Label | Preamble
 ----- | --------
+[10](research/10.md)
 [20](research/20.md) | [POS](research/20/POS.md)
+[32](research/32.md)
+[37](research/37.md)
+[4P](research/4P.md)
 [5Z](research/5Z.md) | [/](research/5Z/forward-slash.md)
 [A1](research/A1.md)
 [A2](research/A2.md)
