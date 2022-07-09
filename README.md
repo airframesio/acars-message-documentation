@@ -10,7 +10,7 @@ The purpose of this repository is to document the discoveries and notes related 
 
 A collaborative effort of analyzing and researching ACARS message algorithms and structures is ongoing. This section serves to link to primary/current initiatives. We welcome Pull Requests for anything ongoing here so that it can eventually be confirmed and moved into the documentation.
 
-Label | Preamble
+Label | Preambles
 ----- | --------
 [10](research/10.md)
 [12](research/12.md)
@@ -32,8 +32,7 @@ Label | Preamble
 [B5](research/B5.md)
 [B6](research/B6.md) | [/](research/B6/forward-slash.md)
 [B9](research/B9.md) | [/](research/B9/forward-slash.md)
-[H1](research/H1.md) | [#CFB](research/H1/CFB.md)
-[H1](research/H1.md) | [#CFB.01](research/H1/CFB/CFB.01.md)
+[H1](research/H1.md) | [#CFB](research/H1/CFB.md), [#CFB.01](research/H1/CFB/CFB.01.md)
 [RA](research/RA.md) |
 
 ## Documentation
