@@ -18,6 +18,7 @@ Label | Preambles
 [17](research/17.md)
 [1L](research/1L.md)
 [20](research/20.md) | [POS](research/20/POS.md)
+[30](research/30.md) | [/EA](research/30/forward-slash-EA.md)
 [32](research/32.md)
 [37](research/37.md)
 [4P](research/4P.md)
