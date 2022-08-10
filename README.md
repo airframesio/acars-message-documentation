@@ -12,17 +12,17 @@ A collaborative effort of analyzing and researching ACARS message algorithms and
 
 Label | Sublabel | Preambles | Description
 ----- | -------- | --------- | -----------
-:; | | | Aircraft Transceiver Frequency Change
-_d | | | Transponder Pings / No-Ops
+[:;](research/colon-semicolon.md) | | | Aircraft Transceiver Frequency Change
+[_d](research/_d.md) | | | Transponder Pings / No-Ops
 [10](research/10.md)
-11
+[11](research/11.md)
 [12](research/12.md)
-13
-14
-15
+[13](research/13.md)
+[14](research/14.md)
+[15](research/15.md)
 [16](research/16.md)
 [17](research/17.md)
-18
+[18](research/18.md)
 1A
 1B
 1C
