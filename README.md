@@ -148,7 +148,7 @@ CA
 [H1](research/H1.md) | | [#CFB](research/H1/CFB.md), [#CFB.01](research/H1/CFB/CFB.01.md)
 H2
 HX
-[MA](research/MA.md) | | | Appears to be MIAM focused
+[MA](research/MA.md) | | | Media Advisories (appears to be MIAM focused)
 Q0
 Q2
 Q3
