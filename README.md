@@ -15,7 +15,7 @@ Label | Sublabel | Preambles | Description
 [:;](research/colon-semicolon.md) | | | Aircraft Transceiver Frequency Change
 [_d](research/_d.md) | | | Transponder Pings / No-Ops
 [10](research/10.md)
-[11](research/11.md)
+[11](research/11.md) | | | Lots of formats
 [12](research/12.md)
 [13](research/13.md)
 [14](research/14.md)
@@ -23,17 +23,17 @@ Label | Sublabel | Preambles | Description
 [16](research/16.md)
 [17](research/17.md)
 [18](research/18.md)
-1A
-1B
-1C
-1D
-1E
-1G
+[19](research/19.md)
+[1A](research/1A.md)
+[1B](research/1B.md)
+[1C](research/1C.md)
+[1D](research/1D.md)
+[1E](research/1E.md)
+[1G](research/1G.md)
 [1L](research/1L.md)
-1M
-1P
-1X
-19
+[1M](research/1M.md)
+[1P](research/1P.md)
+[1X](research/1X.md)
 [20](research/20.md) | | [POS](research/20/POS.md)
 21
 22
