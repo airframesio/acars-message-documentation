@@ -10,19 +10,19 @@ The purpose of this repository is to document the discoveries and notes related 
 
 A collaborative effort of analyzing and researching ACARS message algorithms and structures is ongoing. This section serves to link to primary/current initiatives. We welcome Pull Requests for anything ongoing here so that it can eventually be confirmed and moved into the documentation.
 
-Label | Preambles
------ | --------
+Label | Sublabel | Preambles
+----- | -------- | ---------
 [10](research/10.md)
 [12](research/12.md)
 [16](research/16.md)
 [17](research/17.md)
 [1L](research/1L.md)
-[20](research/20.md) | [POS](research/20/POS.md)
-[30](research/30.md) | [/EA](research/30/forward-slash-EA.md)
+[20](research/20.md) | | [POS](research/20/POS.md)
+[30](research/30.md) | | [/EA](research/30/forward-slash-EA.md)
 [32](research/32.md)
 [37](research/37.md)
 [4P](research/4P.md)
-[5Z](research/5Z.md) | [/](research/5Z/forward-slash.md)
+[5Z](research/5Z.md) | | [/](research/5Z/forward-slash.md)
 [80](research/80.md)
 [83](research/83.md)
 [A1](research/A1.md)
@@ -34,14 +34,14 @@ Label | Preambles
 [B3](research/B3.md)
 [B4](research/B4.md)
 [B5](research/B5.md)
-[B6](research/B6.md) | [/](research/B6/forward-slash.md)
-[B9](research/B9.md) | [/](research/B9/forward-slash.md)
-[H1](research/H1.md) | [#CFB](research/H1/CFB.md), [#CFB.01](research/H1/CFB/CFB.01.md)
-[RA](research/RA.md) |
+[B6](research/B6.md) | | [/](research/B6/forward-slash.md)
+[B9](research/B9.md) | | [/](research/B9/forward-slash.md)
+[H1](research/H1.md) | | [#CFB](research/H1/CFB.md), [#CFB.01](research/H1/CFB/CFB.01.md)
+[RA](research/RA.md) | |
 
 ## Documentation
 
-We will add documentation as we confirm our research results.
+We will compile and create actual documentation as we confirm our research results.
 
 PENDING...
 
