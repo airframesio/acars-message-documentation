@@ -64,10 +64,10 @@ Field | Value | Purpose
 ----- | ----- | ----
 1 | N38160W077075 | Coordinates / Position
 2 | |
-3 | 211733 |
-4 | 360 |
+3 | 211733 | Current time (UTC)
+4 | 360 | Flight level
 5 | OTT | Waypoint/Fix?
-6 | 212041 |
+6 | 212041 | ETA to Waypoint (UTC)
 7 | |
 8 | N42 |
 9 | 19689 |
@@ -108,8 +108,8 @@ Field | Value | Purpose
 ----- | ----- | ----
 1 | N32249E045047 | Coordinates / Position
 2 | |
-3 | 082806 |
-4 | 380 |
+3 | 082806 | Current time (UTC)
+4 | 380 | Flight level
 5 | DEBNI | Waypoint/Fix?
 
 #### 3) Parse/format field values
