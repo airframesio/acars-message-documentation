@@ -10,8 +10,10 @@ The purpose of this repository is to document the discoveries and notes related 
 
 A collaborative effort of analyzing and researching ACARS message algorithms and structures is ongoing. This section serves to link to primary/current initiatives. We welcome Pull Requests for anything ongoing here so that it can eventually be confirmed and moved into the documentation.
 
-Label | Sublabel | Preambles
------ | -------- | ---------
+Label | Sublabel | Preambles | Description
+----- | -------- | --------- | 
+:;
+_d | | | Transponder Pings
 [10](research/10.md)
 [12](research/12.md)
 [16](research/16.md)
@@ -37,6 +39,7 @@ Label | Sublabel | Preambles
 [B6](research/B6.md) | | [/](research/B6/forward-slash.md)
 [B9](research/B9.md) | | [/](research/B9/forward-slash.md)
 [H1](research/H1.md) | | [#CFB](research/H1/CFB.md), [#CFB.01](research/H1/CFB/CFB.01.md)
+MA | | | Appears to be MIAM focused
 [RA](research/RA.md) | |
 
 ## Documentation
