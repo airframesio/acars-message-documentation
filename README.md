@@ -106,7 +106,7 @@ _d | | | Transponder Pings / No-Ops
 58
 5D
 5P
-5U
+[5U](research/5U.md)
 5V
 5Y
 [5Z](research/5Z.md) | | [/](research/5Z/forward-slash.md)
@@ -148,7 +148,7 @@ CA
 [H1](research/H1.md) | | [#CFB](research/H1/CFB.md), [#CFB.01](research/H1/CFB/CFB.01.md)
 H2
 HX
-MA | | | Appears to be MIAM focused
+[MA](research/MA.md) | | | Appears to be MIAM focused
 Q0
 Q2
 Q3
