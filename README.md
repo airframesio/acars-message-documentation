@@ -185,4 +185,5 @@ Name | Description
 ---- | -----------
 [Kevin Elliott](https://github.com/kevinelliott) | Primary Airframes contributor
 [Frank Vance](https://github.com/fvance) | Multiple label research contributions
+[Andy](https://github.com/andermatt64) | Multiple label research contributions
 Unnamed | Several contributors who wished to be unnamed or I have not yet been granted permission to list here
