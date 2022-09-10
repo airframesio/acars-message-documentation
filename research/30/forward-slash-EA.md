@@ -43,8 +43,7 @@ Flight was from Austin (AUS) to San Francisco (SFO).
 ## Acronyms / Codes
 
 - EA - Estimated Arrival
-- DSK - unknown, but related to the destination airport
-- DSM - unknown
+- DS - Destination Airport ICAO
 - SK - unknown
 
 ## Analysis
