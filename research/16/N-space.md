@@ -48,7 +48,7 @@ Flight was from Chicago, IL (ORD) to Mexico City, Mexico (MEX).
 ## Analysis
 
 In the case of the Alaskan Airlines messages, it is a comma separated list of
-five items: Latitude, Longitude, Altitude, \<unknown\>, \<unkown\>
+five items: Latitude, Longitude, Altitude, \<unknown\>, \<unknown\>
 
 In the AeroMexico variant, it is a simple Latitude and Longitude, separated
 by a forward slash.
