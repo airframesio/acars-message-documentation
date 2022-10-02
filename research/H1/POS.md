@@ -58,14 +58,18 @@ Flight was from Washington, DC (IAD) to Fort Lauderdale, FL (FLL).
 - POS - Position
 - TS - Time Stamp
 - W - Longitude West
+- P - Plus Celcius
+- M - Minus Celcius
 
 ## Analysis
 
 Comma separated list:
-\<Position\>,\<Future WayPoint\>,\<Unknown\>,\<Altitude in hundreds\>,\<Future WayPoint\>,\<Unknown\>,\<Future WayPoint\>,\<Unknown\>,\<Unknown\>,\<Unknown/TimeStamp\>,\<Groundspped or Date\>,\<Unknown\>,\<Unknown\>,\<Unknown\>
+\<Position\>,\<Future WayPoint\>,\<Unknown\>,\<Altitude in hundreds\>,\<Future WayPoint\>,\<Unknown\>,\<Future WayPoint\>,\<Outside Air Temperature\>,\<Unknown\>,\<Unknown/TimeStamp\>,\<Groundspped or Date\>,\<Unknown\>,\<Unknown\>,\<Unknown\>
 
 \<Position\> is POS\<Latitude Direction\>\<Latitude\*1000\>\<Longitude Direction\>\<Longitude\*1000\>
 
 In variant 1 and 3, the next to last section includes the \<TimeStamp\>, \<Unknown\>/TS\<Hour\>\<Minute\>\<Second\>
 
 In variant 1 and 3, the last section includes the \<Date\>, \<two digit month\>\<two digit day\>\<two digit year\>\<Unknown\>.
+
+Outside air temperature is prefixed with an M when it is minus celcius, and P when it is positive celcius.
