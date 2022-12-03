@@ -15,6 +15,17 @@ CFB | Crew Flight Bag
 FLR | Realtime Failure
 FR  | Recorded Fault
 
+Flight Phase | Meaning
+----- | ----
+`02` | Engine start + 3 mn up to TO Power
+`03` | TO Power up to 80 kts
+`04` | 80 kts up to lift off
+`05` | Climb
+`06` | Cruise
+`07` | Descent
+`08` | Touch down up to 80 kts
+`09` | 80 kts up to last engine shut down
+
 ## Analysis
 
 ### Item 1
