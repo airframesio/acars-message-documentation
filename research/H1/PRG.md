@@ -27,4 +27,6 @@ Flight was from Minneapolis (KMSP) to Amsterdam (EHAM).
 - W - Longitude West
 
 ## Analysis
-PRG/DT\<Arrival ICAO\>,\<Expected arrival runway entered in to FMGC\>,\<unknown\>,\<unknown\>,\<Unknown possibly remaining fuel on board at landing\>/FN\<ATC Callsign\>/TS\<Time in hhmmss\>,\<Date in ddmmyy\>\<Checksum\>
+PRG/DT\<Arrival ICAO\>,\<Expected arrival runway entered in to FMGC\>,\<Possibly current fuel in LBS\>,\<unknown\>,\<Possibly fuel on landing in KGs\>/FN\<ATC Callsign\>/TS\<Time in hhmmss\>,\<Date in ddmmyy\>\<Checksum\>
+
+The possible fuel elements are strange. I've used flight planning software designed for flight simulators to run some calculations and the numbers match up fairly well, just seems odd for one to be LBS and one to be KG!
