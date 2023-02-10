@@ -26,6 +26,8 @@ Recorded Wednesday, September 21, 2022 22:03:10 UTC
 POSN45209W122550,PEGTY,220309,134,MINNE,220424,HISKU,M6,060013,269,366,355K,292K,730A5B
 ```
 
+In this variant, the 366 is the ground speed in knots.
+
 Flight was from Portland, OR (PDX) to San Jose, CA (SJC).
 
 Variant 3
@@ -56,14 +58,18 @@ Flight was from Washington, DC (IAD) to Fort Lauderdale, FL (FLL).
 - POS - Position
 - TS - Time Stamp
 - W - Longitude West
+- P - Plus Celcius
+- M - Minus Celcius
 
 ## Analysis
 
 Comma separated list:
-\<Position\>,\<Future WayPoint\>,\<Unknown\>,\<Altitude in hundreds\>,\<Future WayPoint\>,\<Unknown\>,\<Future WayPoint\>,\<Unknown\>,\<Unknown\>,\<Unknown/TimeStamp\>,\<Unknown/Date\>,\<Unknown\>,\<Unknown\>,\<Unknown\>
+\<Position\>,\<Future WayPoint\>,\<Unknown\>,\<Altitude in hundreds\>,\<Future WayPoint\>,\<Unknown\>,\<Future WayPoint\>,\<Outside Air Temperature\>,\<Unknown\>,\<Unknown/TimeStamp\>,\<Groundspeed or Date\>,\<Unknown\>,\<Unknown\>,\<Unknown\>
 
 \<Position\> is POS\<Latitude Direction\>\<Latitude\*1000\>\<Longitude Direction\>\<Longitude\*1000\>
 
 In variant 1 and 3, the next to last section includes the \<TimeStamp\>, \<Unknown\>/TS\<Hour\>\<Minute\>\<Second\>
 
 In variant 1 and 3, the last section includes the \<Date\>, \<two digit month\>\<two digit day\>\<two digit year\>\<Unknown\>.
+
+Outside air temperature is prefixed with an M when it is minus celcius, and P when it is positive celcius.
