@@ -64,7 +64,7 @@ Flight was from Washington, DC (IAD) to Fort Lauderdale, FL (FLL).
 ## Analysis
 
 Comma separated list:
-\<Position\>,\<Future WayPoint\>,\<Unknown\>,\<Altitude in hundreds\>,\<Future WayPoint\>,\<Unknown\>,\<Future WayPoint\>,\<Outside Air Temperature\>,\<Unknown\>,\<Unknown/TimeStamp\>,\<Groundspped or Date\>,\<Unknown\>,\<Unknown\>,\<Unknown\>
+\<Position\>,\<Future WayPoint\>,\<Unknown\>,\<Altitude in hundreds\>,\<Future WayPoint\>,\<Unknown\>,\<Future WayPoint\>,\<Outside Air Temperature\>,\<Unknown\>,\<Unknown/TimeStamp\>,\<Groundspeed or Date\>,\<Unknown\>,\<Unknown\>,\<Unknown\>
 
 \<Position\> is POS\<Latitude Direction\>\<Latitude\*1000\>\<Longitude Direction\>\<Longitude\*1000\>
 
