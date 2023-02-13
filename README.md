@@ -188,5 +188,6 @@ Name | Description
 [Andy / andermatt64](https://github.com/andermatt64) | Multiple label research contributions
 [Thomas / period](https://github.com/period) | Multiple label research contributions
 [Michael Johnson / johnsom](https://github.com/johnsom) | Multiple label research contributions
+[Chris Globe / chrisglobe](https://github.com/chrisglobe) | Multiple label research contributions
 [ge0metrix](https://github.com/ge0metrix) | Label updates
 Unnamed | Several contributors who wished to be unnamed or I have not yet been granted permission to list here
