@@ -91,7 +91,8 @@ https://app.airframes.io/messages/2161761202
 FPN/FNUAL1187/RP:DA:KSFO:AA:KPHX:F:KAYEX,N36292W120569..LOSHN,N35509W120000..BOILE,N34253W118016..BLH,N33358W114457DDFB
 ```
 
-means the following
+means the following:
+
 key | value
 ---|-----
 Flight Number | UAL1187
