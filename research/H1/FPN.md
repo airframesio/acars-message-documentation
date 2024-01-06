@@ -39,17 +39,10 @@ R  | Departure Runway
 #### First Waypoint
 There can be multiple First Waypoints in a message. I believe they are related to the prior keypair. see [Landing](#landing)
 
-#### Waypoints format
-The use of the waypoints is designated by the prior key/value pair. 
-Waypoints can either be delimiated by `..`, `.` or `,`. The exact meaning is currently unclear. Current guess is as follows (with incorrect terminology)
+#### Routes format
+Routes are delimited by `.`. Routes will begin and end with either a position or waypoint. A waypoint can be annotated with a position using `,`. The format is `b{begin}.{airways}.{end}`. The airways is an optional field is also deliminated by `.` so you can go from airway to airway. This format can be repeated, where the end becomes the next beginning. For the examples. For purposes of explaining, i will annotate `..` as 'direct to' and `.` as 'along airway' with the exception of the last `.` being 'to' a waypoint.
 
-key | value
----|-----
-.. | FAA Waypoint
-.  | Local
-,  | position in millidegrees
-
-To explain the position, N and E are positive while S and W are negative. the lat/lon are whole numbers in millidegrees meaning, you must divide by 1000 to get the lat/lon. Latitudes will always be 5 digits, while longitudes will always be 6. They will be zero padded to fit this length. As an example, `N01234W123456` translates to a position of `1.234,-123.456`.
+Positions are coordinates in millidegrees. N and E are positive while S and W are negative. the lat/lon are whole numbers in millidegrees meaning, you must divide by 1000 to get the lat/lon. Latitudes will always be 5 digits, while longitudes will always be 6. They will be zero padded to fit this length. As an example, `N01234W123456` translates to a position of `1.234,-123.456`.
 
 #### Procedures 
 Procedures Look like they are in the format `{name}{route}` Where the route can be either a single waypoint or an entire route in the format described above
@@ -73,13 +66,14 @@ key | value
 Status | Route Inactive
 Departure Airport | KEWR
 Arrival Airport | KDFW
-Current Route | EWRDFW01(17L)..SAAME.J6.HVQ.Q68.LITTR..MEEOW..FEWWW
-Arrival Procedure Name | SEEVR4.FEWWW
-Arrival Waypoints | VECTOR..DISCO..RIVET
-Approach Procedure | ILS 17L.RIVET
+Current Route | From EWR to DFW take off runway 17 Left direct to SAAME along airway J6 along airway HVQ along airway Q68 to LITTR direct to MEEOW direct to FEWWW
+Arrival Procedure Name | SEEVR4. initiate at FEWWW
+Arrival Waypoints | VECTOR direct to DISCO direct RIVET
+Approach Procedure | ILS for runway 17 Left. initiate at RIVET
 Approach Waypoints | TACKE
 Checksum | C8B5
 
+*note - the `01` was dropped off as I believe it was just an identifier
 
 ### Full Flight
 https://app.airframes.io/messages/2161768398
@@ -100,8 +94,8 @@ Arrival Airport | KPHX
 Current Route | PHLPHX61
 Departure Runway| 27L(26O)
 Departure Procedure | PHL3
-Arrival Procedure | EAGUL6.ZUN
-Approach Procedure | ILS26..AIR,N40010W080490.J110.BOWRR..VLA,N39056W089097..STL,N38516W090289..GIBSN,N38430W092244..TYGER,N38410W094050..GCK,N37551W100435..DIXAN,N36169W105573..ZUN,N34579W109093
+Arrival Procedure | EAGUL6 initiate at ZUN
+Approach Procedure | ILS26 direct to AIR,N40010W080490 along airway J110 along airway BOWRR direct to VLA,N39056W089097 direct to STL,N38516W090289 direct to GIBSN,N38430W092244 direct to TYGER,N38410W094050 direct to GCK,N37551W100435 direct to DIXAN,N36169W105573 direct to ZUN,N34579W109093
 Checksum | 293B
 
 ### In-flight (?)
@@ -119,7 +113,7 @@ Flight Number | UAL1187
 Status | Route Planned
 Departure Airport | KSFO
 Arrival Airport | KPHX
-First Waypoint | KAYEX,N36292W120569..LOSHN,N35509W120000..BOILE,N34253W118016..BLH,N33358W114457
+First Waypoint | KAYEX,N36292W120569 direct to LOSHN,N35509W120000 direct to BOILE,N34253W118016 direct to BLH,N33358W114457
 Checksum | DDFB
 
 ## Parsing
@@ -175,8 +169,69 @@ Arrival Airport | EGSS
 First Waypoint | HUMMS,N36214W088591..PXV,N37557W087457..ROD,N40173W084026..SLT,N41308W077582.J190..RKA,N42280W075144..MIILS,N46524W067029.N279A..TUDEP,N51100W053140..N52000W050000..N53000W040000..N54000W030000..N54000W020000..DOGAL,N54000W015000..BEXET,N54000W014000..BAKUR,N52145W005408.UN546..STU,N51597W005024.UP2..NUMPO,N51366W003170.Y3..BEDEK,N51223W001335
 Checksum | CE78
 
-**Note:** First Waypoint can be parsed further, but the format is still being decoded
+For the waypoints, we can replace `..` with ` direct to ` yielding the first waypoints as (with formatting)
+```
+HUMMS,N36214W088591 
+direct to PXV,N37557W087457
+direct to ROD,N40173W084026
+direct to SLT,N41308W077582.J190
+direct to RKA,N42280W075144
+direct to MIILS,N46524W067029.N279A
+direct to TUDEP,N51100W053140
+direct to N52000W050000
+direct to N53000W040000
+direct to N54000W030000
+direct to N54000W020000
+direct to DOGAL,N54000W015000
+direct to BEXET,N54000W014000 
+direct to BAKUR,N52145W005408.UN546
+direct to STU,N51597W005024.UP2
+direct to NUMPO,N51366W003170.Y3
+direct to BEDEK,N51223W001335
+```
 
+Then replace `.` with `along airway` or `to`
+```
+HUMMS,N36214W088591 
+direct to PXV,N37557W087457
+direct to ROD,N40173W084026
+direct to SLT,N41308W077582 along airway J190
+direct to RKA,N42280W075144
+direct to MIILS,N46524W067029 along airway N279A
+direct to TUDEP,N51100W053140
+direct to N52000W050000
+direct to N53000W040000
+direct to N54000W030000
+direct to N54000W020000
+direct to DOGAL,N54000W015000
+direct to BEXET,N54000W014000 
+direct to BAKUR,N52145W005408 along airway UN546
+direct to STU,N51597W005024 along airway UP2
+direct to NUMPO,N51366W003170 along airway Y3
+direct to BEDEK,N51223W001335
+```
+
+And for fun, let's turn the positions into something usable. 
+
+```
+HUMMS(36.214,-088.591) 
+direct to PXV(37.557,-087.457)
+direct to ROD(40.173W084026)
+direct to SLT(41.308,-077582) along airway J190
+direct to RKA(42.280,-075144)
+direct to MIILS(46.524,-067029) along airway N279A
+direct to TUDEP(51.100,-053140)
+direct to 52.000,-050.000
+direct to 53.000,-040.000
+direct to 54.000,-030.000
+direct to 54.000,-020.000
+direct to DOGAL(54.000,-015.000)
+direct to BEXET(540.00,-014.000)
+direct to BAKUR(52.145,-005.408) along airway UN546
+direct to STU(51.597,-005.024) along airway UP2
+direct to NUMPO(51.366,-003.170) along airway Y3
+direct to BEDEK(51.223,-001.335)
+```
 
 ## Resources
 * https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/20130085669
