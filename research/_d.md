@@ -2,7 +2,7 @@
 
 ## Description
 
-Transponder Pings and No Operations.
+Frame acknowledgement 
 
 ## Examples
 
@@ -14,4 +14,4 @@ None.
 
 ## Analysis
 
-These are very common messages that indicate that either an airframe or ground station are active/alive, and only serve to present one to the other. We are not sure if there is any value to us of these yet.
+These frames are used to acknowledge the receipt of a previous frame from either the aircraft or ground station. The `ack` field specifies the t-be-acknowledged frame's `blk_id`. If an acknowledgement is not received by the other party, the originator will send a duplicate after a timeout interval. The timeout interval has not yet been determined. We are not sure if there is any value to us aside from DXing. 
