@@ -75,7 +75,7 @@ Label | Sublabel | Preambles | Description
 3P
 3S
 4~
-[40](research/40.md)| | | Request for Clearance - used by aircraft to request clearance from air traffic control (ATC) for a specific flight plan or altitude.
+[40](research/40.md)| | | Ground to Air, request for Clearance Free Text w ATC, OPS and administrative msg/request, weather info.
 41
 42
 43
