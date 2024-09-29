@@ -75,7 +75,7 @@ Label | Sublabel | Preambles | Description
 3P
 3S
 4~
-40
+[40](research/40.md)| | | Ground to Air, Request for Clearance via Free Text w ATC, OPS and administrative msg/requests from ground, weather info.
 41
 42
 43
