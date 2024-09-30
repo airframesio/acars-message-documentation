@@ -2,6 +2,8 @@
 
 ## Description
 
+Command/Response
+
 ## Examples
 
 #### Variation 1
