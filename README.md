@@ -85,7 +85,7 @@ Label | Sublabel | Preambles | Description
 47
 48
 49
-4A
+[4A](research/4A.md)
 4C
 4E
 4H
@@ -93,7 +93,7 @@ Label | Sublabel | Preambles | Description
 4K
 [4L](research/4L.md)
 4M
-4N
+[4N](research/4N.md)
 [4P](research/4P.md)
 4Q
 4R
@@ -133,7 +133,7 @@ A0
 A6
 A9
 AA
-B0
+[B0](research/B0.md)
 [B1](research/B1.md)
 [B2](research/B2.md)
 [B3](research/B3.md)
@@ -147,7 +147,7 @@ C1
 CA
 [H1](research/H1.md) | | [#CFB](research/H1/CFB.md), [#CFB.01](research/H1/CFB/CFB.01.md), [FPN](research/H1/FPN.md), [POS](research/H1/POS.md)
 [H2](research/H2.md)
-HX
+[HX](research/HX.md)
 [MA](research/MA.md) | | | Media Advisories (appears to be MIAM focused)
 [Q0](research/Q0.md)
 [Q2](research/Q2.md)
@@ -161,7 +161,7 @@ QD
 QE
 [QF](research/QF.md)
 QP
-QQ
+[QQ](research/QQ.md)
 QR
 QS
 QX
