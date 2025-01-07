@@ -2,6 +2,10 @@
 
 Discoveries, documentation, and notes relating to decoding ACARS message text.
 
+[![Contributors](https://img.shields.io/github/contributors/airframesio/acars-decoder-typescript)](https://github.com/airframesio/acars-decoder-typescript/graphs/contributors)
+[![Activity](https://img.shields.io/github/commit-activity/m/airframesio/acars-decoder-typescript)](https://github.com/airframesio/acars-decoder-typescript/pulse)
+[![Discord](https://img.shields.io/discord/1067697487927853077?logo=discord)](https://discord.gg/8Ksch7zE)
+
 ## Purpose
 
 The purpose of this repository is to document the discoveries and notes related to decoding ACARS message text payload in order to better organize and develop the ACARS Decoder libraries. All efforts here will directly benefit the [Airframes ACARS Decoder library](https://github.com/airframesio/acars-decoder-typescript).
