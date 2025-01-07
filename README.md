@@ -2,8 +2,8 @@
 
 Discoveries, documentation, and notes relating to decoding ACARS message text.
 
-[![Contributors](https://img.shields.io/github/contributors/airframesio/acars-decoder-typescript)](https://github.com/airframesio/acars-decoder-typescript/graphs/contributors)
-[![Activity](https://img.shields.io/github/commit-activity/m/airframesio/acars-decoder-typescript)](https://github.com/airframesio/acars-decoder-typescript/pulse)
+[![Contributors](https://img.shields.io/github/contributors/airframesio/acars-decoder-typescript)](https://github.com/airframesio/acars-message-documentation/graphs/contributors)
+[![Activity](https://img.shields.io/github/commit-activity/m/airframesio/acars-decoder-typescript)](https://github.com/airframesio/acars-message-documentation/pulse)
 [![Discord](https://img.shields.io/discord/1067697487927853077?logo=discord)](https://discord.gg/8Ksch7zE)
 
 ## Purpose
