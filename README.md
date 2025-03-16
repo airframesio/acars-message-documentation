@@ -53,7 +53,7 @@ Label | Sublabel | Preambles | Description
 2D
 2E
 2F
-2L
+[2L](research/2L.md) | | [DAT](research/2L/DAT-Jetstar.md) | Used by Jetstar AU for OOOI
 2P
 2T
 2Z
