@@ -53,7 +53,7 @@ Label | Sublabel | Preambles | Description
 2D
 2E
 2F
-2L
+[2L](research/2L.md) | | [DAT](research/2L/DAT-Jetstar.md) | Used by Jetstar AU for OOOI
 2P
 2T
 2Z
@@ -149,7 +149,7 @@ AA
 BB
 C1
 CA
-[H1](research/H1.md) | | [#CFB](research/H1/CFB.md), [#CFB.01](research/H1/CFB/CFB.01.md), [FPN](research/H1/FPN.md), [POS](research/H1/POS.md)
+[H1](research/H1.md) | | [#CFB](research/H1/CFB.md), [#CFB.01](research/H1/CFB/CFB.01.md), [FPN](research/H1/FPN.md), [POS](research/H1/POS.md), [Qantas various](research/H1/Qantas.md) | Message to/from Terminal
 [H2](research/H2.md)
 [HX](research/HX.md)
 [MA](research/MA.md) | | | Media Advisories (appears to be MIAM focused)
