@@ -240,6 +240,34 @@ Flight was from MMMX (Mexico City) to KIAH.
 
 ### raw 
 ```
-ABS011DA_N27253  KIAHKSMF4\r\n 30018 -953982310000761+308125016XH08GX1151420000--\r\n 29930 -953620155001989+24-143014X1P/9W0661150000--\r\n 29907 -954310156004131+21-111011XZ:700++++++0000--\r\n 29918 -955200157006476+165 98011XZ:700++++++0000--\r\n 29942 -956100158008966+14-112010XZ:700++++++0000--\r\n 29967 -957060159010665+12- 98007XZ:700++++++0000--\r\n```
-
+ABS011DA_N27253  KIAHKSMF4\r\n 30018 -953982310000761+308125016XH08GX1151420000--\r\n 29930 -953620155001989+24-143014X1P/9W0661150000--\r\n 29907 -954310156004131+21-111011XZ:700++++++0000--\r\n 29918 -955200157006476+165 98011XZ:700++++++0000--\r\n 29942 -956100158008966+14-112010XZ:700++++++0000--\r\n 29967 -957060159010665+12- 98007XZ:700++++++0000--\r\n
+```
 Flight was from KIAH to KSMF.
+
+## Example 7 from WN0609, tail N8673F
+
+```
+++76502,XXX,B737-800,250628,WN0609,KATL,KSAT,0167,SW2501
+6
+N3007.7,W09656.0,282145,30995,-35.5,212,004,DC,00263,1,
+N3005.5,W09704.6,282146,27861,-27.0,234,006,DC,00495,1,
+N3003.4,W09713.2,282147,25224,-20.8,242,005,DC,00427,1,
+N3001.4,W09721.4,282148,22702,-14.8,233,008,DC,00747,1,
+N2959.4,W09729.3,282149,20192,-10.0,057,003,DC,01546,1,
+N2957.5,W09737.0,282150,17805,-05.5,157,004,DC,03905,1,
+:
+```
+Data appears to be [AMDAR encoded following ARINC 620-8](https://slideplayer.com/slide/5855688/)
+
+Line 1: Message version, Tail/Reg/Identifier, AC Type, YYMMDD, Flight No., Origin, Dest, ?, ?
+
+Line 2: Number of messages
+
+Line 3: Lat (DDMM.M)(6 char), Lon (DDDMM.M)(7), DDHHMM (6), Alt (ft)(5), Temp (C)(4), Wind Direction(3), Wind Speed (kph)(3),  Phase (DC for Descent, CL for Climb)(2), Mixing Ratio (humidity)(4), ? 
+
+
+The last line was cross-referenced with publicly available NOAA data to confirm values and format, and if data was accepted into MADIS (i.e. actually AMDAR)
+
+![image](https://github.com/user-attachments/assets/4d02d3b5-4a5f-41c8-a1e7-7ab46c3d8919)
+![image](https://github.com/user-attachments/assets/e6775b36-e703-419a-81f7-d33f5a95a80d)
+
