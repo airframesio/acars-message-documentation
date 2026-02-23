@@ -139,14 +139,22 @@ MDC TABLES PN:      810-0042-115
 
 Code  | Meaning
 ----- | ----
-APM |
+APM | Aircraft Performance Monitoring
 CFB | Crew Flight Bag
-ECT |
-FDE |
+ECT | 
+FDE | Flight Deck Effect
 FLR | Realtime Failure
 FR  | Recorded Fault
-MPF |
+MPF | Maintenance Planning Function
 WRN | Warning
+ACMF | Airplane Condition Monitoring Function
+SWVER | Software Version
+APPVER | Application Version
+MIL | Engine Spool Vibration Units
+DM | Display Message
+DU | Display Unit (Flt Deck Monitor)
+HARD | Hard Fault (AIRBUS terminology for NOT intermittent detected fault)
+
 
 `CRZ` = `Cruise Performance Data`
 `TKO` = `Takeoff Performance Data`
@@ -159,5 +167,5 @@ Full Preamble | Description
 ------------- | -----------
 [#CFB.01](CFB/CFB.01.md) | Failure/fault/warning
 #CFBFLR | Realtime Failure
-#CFBMPF |
+#CFBMPF | Maintenance Planning Function
 #CFBWRN | Warning
