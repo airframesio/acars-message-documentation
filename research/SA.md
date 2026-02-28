@@ -64,3 +64,14 @@ The first three characters vary but the purpose is unknown. The first is almost 
 The next 6 characters are the current time in UTC, HH:MM:SS.
 
 After the time, there are a variable number of characters. All current examples are one of "V", "2", "VS", "V/", or "2S/".
+
+V = VDL-M0/A (Plain Old ACARS)
+2 = VDL-M2
+S = SATCOM
+H = HFDL
+E = ?
+
+
+
+
+
