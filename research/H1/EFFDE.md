@@ -26,29 +26,8 @@ EOR
 
 Analysis
 
-```
-EFFDE = Existing Fault Flight Deck Effect Report
-27FEB26 = DDMMYY Date
-1031 = HHMM Time
-AI = Aircraft Identification
-VT-ALP = Aircraft Registration
-AIC186D = Flight Number
-CYVR = Departure Airport
-LOWW = Destination Airport
-311B-BCG-00W-19 = CMC Part Number
-L = Left CMC (Source)
-CMC = Central Maintenance Computer
+## Analysis
 
-FDE = Flight Deck Effect (STATUS message displayed on EICAS for FLT CREW attention)
-21200100 = Fault Code
-A or L = Active or Latched Fault
-MSG = Message (Followed by Maintenance Message Number, example MSG 2124400)
-DB = Detected By (Source System that detected the Fault)
-
-NCMM = Non-Correlated Maintenance Message part of Report follows (with no STATUS related messages, for Maintenance Personnel only)
-
-EOR = End Of Report
-```
 ...
 
 
