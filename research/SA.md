@@ -69,7 +69,7 @@ V = VDL-M0/A (Plain Old ACARS)
 2 = VDL-M2
 S = SATCOM
 H = HFDL
-E = ?
+E = unknown
 
 
 
