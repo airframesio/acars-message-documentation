@@ -24,15 +24,11 @@ EOR
 
 ```
 
-
-
 ## Acronyms / Codes
 
 ```
 - NCMM = Non-Correlated Maintenance Message
 ```
-
-
 
 ## Analysis
 
@@ -67,5 +63,3 @@ EOR
 - ...
 - EOR = End Of Report
 ```
-
-
