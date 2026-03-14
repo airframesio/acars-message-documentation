@@ -2,7 +2,7 @@
 
 ## Description
 
-Real Time Effects Report.
+Real Time Events Report.
 Maintenance Related FDE/STATUS Messages for Flight Crew Notice/Action. 
 BOEING Airplane Health Monitoring. 
 
@@ -39,7 +39,7 @@ EOR
 ### Analysis for Example 1
 
 ```
-- RTE = Real Time Effects Report
+- RTE = Real Time Events Report
 - 1 = Leg Number
 - 13MAR26 = DDMMMYY Leg Date
 - 1015 = HHMM Leg Time
@@ -60,7 +60,7 @@ EOR
 - 13MAR26 = DDMMMYY FDE Time Stamp
 - CL = CLIMB, Flight Phase
 - M = Medium Priority Level
-- PL = 
+- PL = Unknown
 - DB = Detected By (ECSMC = Environmental Control System Management Controller), Left
 - ...
 - ... 
