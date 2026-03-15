@@ -42,8 +42,8 @@ EOR
 - BAW9VA = Flight Number
 - EGKK/TLPL = Departure Airport/Destination Airport
 - 311B-BCG-00W-19 L = Central Maintenance Computer (CMC) or Part Number, Left (L) System
-- 0955 = HHMM Real Time Effect Timestamp
-- 13MAR26 =  DDMMMYY Real Time Effect Datestamp
+- 0955 = HHMM Real Time Event Timestamp
+- 13MAR26 =  DDMMMYY Real Time Event Datestamp
 - FDE = Flight Deck Effect
 - 21401145 = Fault Code 214 011 45
 - A = ACTIVE Fault
