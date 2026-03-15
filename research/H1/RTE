@@ -1,0 +1,61 @@
+# Label: H1, Preamble:#RTE
+
+## Description
+
+Real Time Events Report.
+Maintenance Related FDE/STATUS Messages for Flight Crew Notice/Action. 
+BOEING Airplane Health Monitoring. 
+
+## Examples
+
+### Example 1
+
+```
+RTE 1 13MAR26 1015 BAG-YMMF BAW9VA EGKK/TLPL 311B-BCG-00W-19 L 0955 13MAR26
+FDE 21401145 A 1012 13MAR26
+MSG 2112021 L 1013 13MAR26 CL M PL
+DB ECSMC (LEFT)
+FDE 34310332 A 0955 13MAR26
+MSG 3457425 A 0955 13MAR26 ES H PL
+DB AUTOPILOT FLIGHT DIRECTOR COMPUTER (CENTER)
+DB AUTOPILOT FLIGHT DIRECTOR COMPUTER (LEFT)
+DB AUTOPILOT FLIGHT DIRECTOR COMPUTER (RIGHT)
+EOR
+```
+
+## Acronyms / Codes
+
+```
+- NCMM = Non-Correlated Maintenance Message
+```
+
+## Analysis
+
+### Analysis for Example 1
+
+```
+- RTE = Real Time Events Report
+- 1 = Leg Number
+- 13MAR26 = DDMMMYY Leg Date
+- 1015 = HHMM Leg Time
+- BAG-YMMF = BA (Operator Code) / G-YMMF (A/C Registration)
+- BAW9VA = Flight Number
+- EGKK/TLPL = Departure Airport/Destination Airport
+- 311B-BCG-00W-19 L = Central Maintenance Computer (CMC) or Part Number, Left (L) System
+- 0955 = HHMM Real Time Effect Timestamp
+- 13MAR26 =  DDMMMYY Real Time Effect Datestamp
+- FDE = Flight Deck Effect
+- 21401145 = Fault Code 214 011 45
+- A = ACTIVE Fault
+- 1012 = HHMM FDE Time Stamp
+- MSG = Maintenance Message
+- 2112021 = 21-12021 Maintenance Message ATA Number
+- L = LATCHED Fault
+- 1013 = HHMM MSG Time Stamp
+- 13MAR26 = DDMMMYY FDE Time Stamp
+- CL = CLIMB, Flight Phase
+- M = Medium Priority Level
+- PL = Unknown
+- DB = Detected By (ECSMC = Environmental Control System Management Controller), Left
+- EOR = End Of Report
+```
