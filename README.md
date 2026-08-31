@@ -18,62 +18,78 @@ Label | Sublabel | Preambles | Description
 ----- | -------- | --------- | -----------
 [:;](research/colon-semicolon.md) | | | Aircraft Transceiver Frequency Change
 [_d](research/_d.md) | | | Transponder Pings / No-Ops
-[10](research/10.md)
+[10](research/10.md) | | | Unknown - free format?
 [11](research/11.md) | | | Lots of formats
 [12](research/12.md) | | [N ](research/12/N-space.md)
-[13](research/13.md)
-[14](research/14.md)
-[15](research/15.md)
-[16](research/16.md) | | [N ](research/16/N-space.md)
-[17](research/17.md)
-[18](research/18.md)
-[19](research/19.md)
-[1A](research/1A.md)
-[1B](research/1B.md)
-[1C](research/1C.md)
-[1D](research/1D.md)
-[1E](research/1E.md)
-[1G](research/1G.md)
-[1L](research/1L.md)
-[1M](research/1M.md)
-[1P](research/1P.md)
-[1X](research/1X.md)
+[13](research/13.md) | | | Arrival Gate request (including ETOA)
+[14](research/14.md) | | | Unknown
+[15](research/15.md) | | | Flight Status
+[16](research/16.md) | | [N ](research/16/N-space.md) | Positional Data (Boeing)
+[17](research/17.md) | | | METAR request?
+[18](research/18.md) | | | Unknown
+[19](research/19.md) | | | Unknown
+[1A](research/1A.md) | | | Unknown
+[1B](research/1B.md) | | | Unknown
+[1C](research/1C.md) | | | Unknown
+[1D](research/1D.md) | | | Unknown
+[1E](research/1E.md) | | | Unknown
+1F
+[1G](research/1G.md) | | | Unknown
+1H
+1I
+1J
+1K
+[1L](research/1L.md) | | | Unknown
+[1M](research/1M.md) | | | Unknown
+1N
+1O
+[1P](research/1P.md) | | | Unknown
+[1Q](research/1Q.md) | | | Unknown
+[1R](research/1R.md) | | | Unknown
+[1S](research/1S.md) | | | Unknown
+[1T](research/1T.md) | | | Unknown
+[1U](research/1U.md) | | | Unknown
+[1V](research/1V.md) | | | Unknown
+[1W](research/1W.md) | | | Unknown
+[1X](research/1X.md) | | | Unknown
+[1Y](research/1Y.md) | | | Unknown
+[1Z](research/1Z.md) | | | Unknown
 [20](research/20.md) | | [POS](research/20/POS.md)
-[21](research/21.md)
-[22](research/22.md)
-[23](research/23.md)
-[24](research/24.md)
-[25](research/25.md)
-[26](research/26.md)
-[27](research/27.md)
-[28](research/28.md)
-[29](research/29.md)
-[2A](research/2A.md)
-[2B](research/2B.md)
-[2C](research/2C.md)
-[2D](research/2D.md)
-[2E](research/2E.md)
-[2F](research/2F.md)
-[2G](research/2G.md)
-[2H](research/2H.md)
-[2I](research/2I.md)
-[2J](research/2J.md)
-[2K](research/2K.md)
+[21](research/21.md) | | | Position
+[22](research/22.md) | | | Position, time and altitude
+[23](research/23.md) | | | Brake Release?
+[24](research/24.md) | | | Unknown
+[25](research/25.md) | | | Unknown
+[26](research/26.md) | | | ETA, wind speed/direction and lat/lon
+[27](research/27.md) | | | ETA, wind speed/direction and lat/lon
+[28](research/28.md) | | | Unknown
+[29](research/29.md) | | | Unknown
+[2A](research/2A.md) | | | Unknown
+[2B](research/2B.md) | | | Unknown
+[2C](research/2C.md) | | | Unknown
+[2D](research/2D.md) | | | Unknown
+[2E](research/2E.md) | | | Unknown
+[2F](research/2F.md) | | | Unknown
+[2G](research/2G.md) | | | Unknown
+[2H](research/2H.md) | | | Unknown
+[2I](research/2I.md) | | | Unknown
+[2J](research/2J.md) | | | Unknown
+[2K](research/2K.md) | | | Unknown
 [2L](research/2L.md) | | [DAT](research/2L/DAT-Jetstar.md) | Used by Jetstar AU for OOOI
-[2M](research/2M.md)
-[2N](research/2N.md)
-[2O](research/2O.md)
-[2P](research/2P.md)
-[2Q](research/2Q.md)
-[2R](research/2R.md)
-[2S](research/2S.md)
-[2T](research/2T.md)
-[2U](research/2U.md)
-[2V](research/2V.md)
-[2W](research/2W.md)
-[2X](research/2X.md)
-[2Y](research/2Y.md)
-[2Z](research/2Z.md)
+[2M](research/2M.md) | | | Problem Report?
+[2N](research/2N.md) | | | Unknown
+[2O](research/2O.md) | | | Unknown
+[2P](research/2P.md) | | | Unknown
+[2Q](research/2Q.md) | | | Unknown
+[2R](research/2R.md) | | | Reset
+[2S](research/2S.md) | | | Unknown
+[2T](research/2T.md) | | | Unknown
+[2U](research/2U.md) | | | Final Loadsheet
+[2V](research/2V.md) | | | Unknown
+[2W](research/2W.md) | | | Unknown
+[2X](research/2X.md) | | | Unknown
+[2Y](research/2Y.md) | | | Unknown
+[2Z](research/2Z.md) | | | Unknown
 [30](research/30.md) | | [/EA](research/30/forward-slash-EA.md)
 [31](research/31.md)
 [32](research/32.md)
