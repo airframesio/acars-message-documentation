@@ -18,66 +18,114 @@ Label | Sublabel | Preambles | Description
 ----- | -------- | --------- | -----------
 [:;](research/colon-semicolon.md) | | | Aircraft Transceiver Frequency Change
 [_d](research/_d.md) | | | Transponder Pings / No-Ops
-[10](research/10.md)
+[10](research/10.md) | | | Unknown - free format?
 [11](research/11.md) | | | Lots of formats
 [12](research/12.md) | | [N ](research/12/N-space.md)
-[13](research/13.md)
-[14](research/14.md)
-[15](research/15.md)
-[16](research/16.md) | | [N ](research/16/N-space.md)
-[17](research/17.md)
-[18](research/18.md)
-[19](research/19.md)
-[1A](research/1A.md)
-[1B](research/1B.md)
-[1C](research/1C.md)
-[1D](research/1D.md)
-[1E](research/1E.md)
-[1G](research/1G.md)
-[1L](research/1L.md)
-[1M](research/1M.md)
-[1P](research/1P.md)
-[1X](research/1X.md)
+[13](research/13.md) | | | Arrival Gate request (including ETOA)
+[14](research/14.md) | | | Unknown
+[15](research/15.md) | | | Flight Status
+[16](research/16.md) | | [N ](research/16/N-space.md) | Positional Data (Boeing)
+[17](research/17.md) | | | METAR request?
+[18](research/18.md) | | | Unknown
+[19](research/19.md) | | | Unknown
+[1A](research/1A.md) | | | Unknown
+[1B](research/1B.md) | | | Unknown
+[1C](research/1C.md) | | | Unknown
+[1D](research/1D.md) | | | Unknown
+[1E](research/1E.md) | | | Unknown
+[1F](research/1F.md) | | [AEX](research/1F/AEX.md) [HKJK](research/1F/HKJK.md) [HRL](research/1F/HRL.md) [LEVC](research/1F/LEVC.md) [LZSH](research/1F/LZSH.md) [TYS](research/1F/AEX.md)
+[1G](research/1G.md) | | | Unknown
+1H
+1I
+1J
+1K
+[1L](research/1L.md) | | | Unknown
+[1M](research/1M.md) | | | Unknown
+1N
+1O
+[1P](research/1P.md) | | | Unknown
+[1Q](research/1Q.md) | | | Unknown
+[1R](research/1R.md) | | | Unknown
+[1S](research/1S.md) | | | Unknown
+[1T](research/1T.md) | | | Unknown
+[1U](research/1U.md) | | | Unknown
+[1V](research/1V.md) | | | Unknown
+[1W](research/1W.md) | | | Unknown
+[1X](research/1X.md) | | | Unknown
+[1Y](research/1Y.md) | | | Unknown
+[1Z](research/1Z.md) | | | Unknown
 [20](research/20.md) | | [POS](research/20/POS.md)
-21
-[22](research/22.md)
-23
-24
-25
-26
-27
-28
-2A
-2B
-2C
-2D
-2E
-2F
+[21](research/21.md) | | | Position
+[22](research/22.md) | | | Position, time and altitude
+[23](research/23.md) | | | Brake Release?
+[24](research/24.md) | | | Unknown
+[25](research/25.md) | | | Unknown
+[26](research/26.md) | | | ETA, wind speed/direction and lat/lon
+[27](research/27.md) | | | ETA, wind speed/direction and lat/lon
+[28](research/28.md) | | | Unknown
+[29](research/29.md) | | | Unknown
+[2A](research/2A.md) | | | Unknown
+[2B](research/2B.md) | | | Unknown
+[2C](research/2C.md) | | | Unknown
+[2D](research/2D.md) | | | Unknown
+[2E](research/2E.md) | | | Unknown
+[2F](research/2F.md) | | | Unknown
+[2G](research/2G.md) | | | Unknown
+[2H](research/2H.md) | | | Unknown
+[2I](research/2I.md) | | | Unknown
+[2J](research/2J.md) | | | Unknown
+[2K](research/2K.md) | | | Unknown
 [2L](research/2L.md) | | [DAT](research/2L/DAT-Jetstar.md) | Used by Jetstar AU for OOOI
-2P
-2T
-2Z
+[2M](research/2M.md) | | | Problem Report?
+[2N](research/2N.md) | | | Unknown
+[2O](research/2O.md) | | | Unknown
+[2P](research/2P.md) | | | Unknown
+[2Q](research/2Q.md) | | | Unknown
+[2R](research/2R.md) | | | Reset
+[2S](research/2S.md) | | | Unknown
+[2T](research/2T.md) | | | Unknown
+[2U](research/2U.md) | | | Final Loadsheet
+[2V](research/2V.md) | | | Unknown
+[2W](research/2W.md) | | | Unknown
+[2X](research/2X.md) | | | Unknown
+[2Y](research/2Y.md) | | | Unknown
+[2Z](research/2Z.md) | | | Unknown
 [30](research/30.md) | | [/EA](research/30/forward-slash-EA.md)
-31
+[31](research/31.md)
 [32](research/32.md)
-33
-34
-35
-36
+[33](research/33.md)
+[34](research/34.md)
+[35](research/35.md)
+[36](research/36.md)
 [37](research/37.md)
-38
-39
-3A
-3B
-3C
-3E
-3F
-3J
-3L
-3M
-3N
-3P
-3S
+[38](research/38.md)
+[39](research/39.md)
+[3A](research/3A.md)
+[3B](research/3B.md)
+[3C](research/3C.md)
+3D
+[3E](research/3E.md)
+[3F](research/3F.md)
+[3G](research/3G.md)
+[3H](research/3H.md)
+[3I](research/3I.md)
+[3J](research/3J.md)
+[3K](research/3K.md)
+[3L](research/3L.md)
+[3M](research/3M.md)
+[3N](research/3N.md)
+3O
+[3P](research/3P.md)
+3Q
+[3R](research/3R.md)
+[3S](research/3S.md)
+[3T](research/3T.md)
+[3U](research/3U.md)
+[3V](research/3V.md)
+[3W](research/3W.md)
+3X
+3Y
+[3Z](research/3Z.md)
 4~
 [40](research/40.md)| | | Ground to Air, Request for Clearance via Free Text w ATC, OPS and administrative msg/requests from ground, weather info.
 41
@@ -131,9 +179,9 @@ Label | Sublabel | Preambles | Description
 99
 A0
 [A1](research/A1.md)
-[A2](research/A2.md)
+A2
 [A3](research/A3.md)
-[A4](research/A4.md)
+A4
 A6
 A9
 AA
@@ -194,4 +242,5 @@ Name | Description
 [Michael Johnson / johnsom](https://github.com/johnsom) | Multiple label research contributions
 [Chris Globe / chrisglobe](https://github.com/chrisglobe) | Multiple label research contributions
 [ge0metrix](https://github.com/ge0metrix) | Label updates
+[Poggs](https://github.com/poggs) | Index fixes and label research
 Unnamed | Several contributors who wished to be unnamed or I have not yet been granted permission to list here
