@@ -33,7 +33,7 @@ Label | Sublabel | Preambles | Description
 [1C](research/1C.md) | | | Unknown
 [1D](research/1D.md) | | | Unknown
 [1E](research/1E.md) | | | Unknown
-1F
+[1F](research/1F.md) | | [AEX](research/1F/AEX.md) [HKJK](research/1F/HKJK.md) [HRL](research/1F/HRL.md) [LEVC](research/1F/LEVC.md) [LZSH](research/1F/LZSH.md) [TYS](research/1F/AEX.md)
 [1G](research/1G.md) | | | Unknown
 1H
 1I
